@@ -1,0 +1,51 @@
+Discovering directory
+    pwd
+
+Discovering Archives
+    ls -l(more details) -a(all archives)
+
+Creating Archives
+    echo "Bem Vindo" > bemvindo.txt
+
+Reading Archive
+    cat bemvindo.txt
+
+Manual from commands
+    man cat
+
+Adding Lines
+    echo "Bem Vindo" >> bemvindo.txt
+
+Creating Directory
+    mkdir
+
+Removing Directory
+    rmdir (only empty directories)
+    rm -r(recursive)
+
+Caracter Coringa
+    ? 
+    * > all
+
+Copying Files
+    cp "name" "name new file"
+
+Moving Files
+    mv "name" "name new"
+
+Zipping with tar
+    tar -cz "archive" > "new name".tar.gz
+    tar -czf "newname".tar.gz
+    (accept -v(verbose))
+
+Unzipping with tar
+    tar -xz < "archive".tar.gz
+    tar -xzf "archive".tar.gz
+    (accept -v(verbose))
+
+USING VI 
+    Press I to insert some changes
+    
+    Press X to delete some caracters
+
+    
